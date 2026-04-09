@@ -444,8 +444,8 @@ const SideProjects: React.FC = () => {
       <div 
         ref={containerRef}
         onMouseMove={handleMouseMove}
-        className="hidden md:block absolute inset-0 z-20 cursor-crosshair"
-      >
+        className="hidden md:block absolute inset-0 z-20 cursor-crosshair"></div>
+  
          {/* THE GROUND */}
          <div className="absolute bottom-0 w-full bg-[#111] border-t-2 border-slate-700 flex items-center px-6 md:px-12 justify-between z-40 shadow-[0_-10px_40px_rgba(0,0,0,0.8)]" style={{ height: `${GROUND_HEIGHT}px` }}>
             
